@@ -1,0 +1,406 @@
+.quickAccessFriends:not(.emptyQuickAccess), .FriendsListChatSection.ChatRoomListContainerParent.Collapsed, .friendRequestButton .SVGIcon_FriendRequest, .friendListButton.addFriendButton.no-drag,
+.title-area-icon.maximizeButton, .statusHeaderGlow, .insetshadow_FriendsListInsetShadowCtn_1S167, .groupHeaderContainer .SortByRecent, .chatWindow .chatHeader, .ModalPosition_TopBar {
+	display: none !important;
+}
+
+
+/*/ Classic "add a friend..." button /*/
+
+#popup_target > div > div > div.DropTarget.friendsListContainer.fullheight > div > div.friendListHeaderContainer.titleBarContainer > div.socialTabSearchContainer > div > div > div.friendsTabButtonsContainer > a {
+    position: fixed !important;
+    bottom: 10px !important;
+	display: flex !important;
+	left: 0px !important;
+	text-decoration: none !important;
+}
+
+#popup_target > div > div > div.DropTarget.friendsListContainer.fullheight > div > div.friendListHeaderContainer.titleBarContainer > div.socialTabSearchContainer > div > div > div.friendsTabButtonsContainer > a:after {
+	content: "ADD A FRIEND...";
+	color: white;
+}
+
+#popup_target > div > div > div.DropTarget.friendsListContainer.fullheight > div > div.friendListHeaderContainer.titleBarContainer > div.socialTabSearchContainer > div > div > div.friendsTabButtonsContainer > a:before {
+	content: "+";
+	color: white;
+	margin-right: 5px;
+    font-weight: 400;
+    font-size: 19px;
+    margin-left: 15px;
+}
+
+/*/ Classic "add a friend..." button /*/
+
+
+/*/ Footer /*/
+
+.friendListFooter {
+	min-height: 39px !important;
+	background-color: rgb(56, 54, 53) !important;
+}
+
+/*/ Footer /*/
+
+
+/*/ Header /*/
+
+.friendListHeaderContainer {
+	background-image: none;
+	background-color: transparent;
+}
+
+.currentUserContainer {
+    border-bottom: none !important;
+}
+
+html.client_chat_frame body, html.web_chat_frame body {
+	background-image: linear-gradient(to bottom, transparent 70px, rgb(56, 54, 53) 150px), url(https://i.imgur.com/BgfuFRZ.png)
+}
+
+.singleWindowFocusBar, .focused .singleWindowFocusBar {
+	display: none !important;
+	opacity: 0 !important;
+	z-index: -999 !important;
+}
+/*/ Header /*/
+
+
+/*/ title area colors /*/
+
+.title-area-icon .SVGIcon_X_Line line, line {
+	stroke: white !important;
+}
+
+/*/ title area colors /*/
+
+
+/*/ Top left "Friends" /*/
+
+.tabLabel {
+    position: absolute !important;
+    top: -83px !important;
+    left: 8px !important;
+    opacity: 1 !important;
+	text-transform: none !important;
+    letter-spacing: 0.1px !important;
+	color: grey !important;
+}
+
+/*/ Top left "Friends" /*/
+
+
+/*/ compact avatar /*/
+
+.currentUserAvatar .avatarHolder, .currentUserAvatar .avatarFrame, .currentUserAvatar {
+	width: 40px !important;
+	height: 40px !important;
+}
+
+.AvatarAndUser {
+	padding-top: 38px !important;
+}
+
+/*/ compact avatar /*/
+
+
+/*/ Gear icon /*/
+
+.friendListButtons {
+	left: 47px !important;
+	top: 4px !important;
+	transform: scale(0.85) !important;
+	position: fixed !important;
+	right: auto !important;
+}
+
+/*/ Gear icon /*/
+
+
+/*/ Search Bar /*/
+
+.activeTab {
+	background-color: transparent !important;
+}
+
+.TabSearchButton:hover, .TabSearchButton {
+	background-color: rgb(56, 54, 53) !important;
+}
+
+.TabSearchButton .searchIconButton {
+	left: calc(0% + 10px) !important;
+    position: absolute !important;
+}
+
+.friendsTabButtonsContainer {
+	padding-left: 0px !important;
+}
+
+.socialListTab {
+	padding-left: 7px !important;
+	padding-right: 7px !important;
+}
+
+/*/ Search Bar /*/
+
+
+/*/ Compact friends container /*/
+
+.FriendsListContent {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+	background-color: transparent !important;
+}
+
+.friendlistListContainer {
+	background: linear-gradient(to bottom, rgb(56, 54, 53) 0%, rgb(23, 22, 20) 50%) !important;
+}
+
+/*/ Compact friends container /*/
+
+
+/*/ Font mojo /*/
+.personanameandstatus_playerName_1uxaf {
+    font-family: motiva-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*/ Font mojo /*/
+
+
+/*/ Scrollbar Stuff /*/
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
+	background-color: rgb(77, 74, 72) !important;
+	border: 0px solid transparent !important;
+	background-image: url('https://i.imgur.com/R1VeTuY.png') !important;
+	background-repeat: no-repeat !important;
+    background-position: center !important;
+	min-height: 12px !important;
+	border-radius: 0px !important;
+}
+
+::-webkit-scrollbar {
+	width: 15px !important;
+	background: linear-gradient(to bottom, rgb(77, 74, 72) 0px, #262626 160px, transparent 190px) !important;
+}
+
+::-webkit-scrollbar-button:single-button {
+	display: block !important;
+	height: 25px;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+	background-image: url('https://i.imgur.com/IGsaSNX.png')
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+	background-image: url('https://i.imgur.com/0Yy7xe7.png')
+}
+/* Down */
+::-webkit-scrollbar-button:single-button:vertical:increment {
+	background-image: url('https://i.imgur.com/neeMUGN.png')
+}
+
+::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+	background-image: url('https://i.imgur.com/CGLJzhs.png')
+}
+/*/ End Scrollbar Stuff /*/
+
+
+/*/ Stuff inside Friends List Container /*/
+
+.ExpandPlusMinus, .ContextMenuButton {
+	opacity: 1 !important;
+}
+
+.groupName {
+    background: linear-gradient(to right, rgb(77, 74, 72), transparent 312px);
+}
+
+:not(.friendInviteContainer) .ingame .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+	fill: white !important;
+}
+
+div.personanameandstatus_richPresenceContainer_21cNf > div:nth-child(2):before {
+	content: "In-Game";
+	color: #91c257;
+}
+
+div.personanameandstatus_richPresenceContainer_21cNf > div:nth-child(2) {
+	color: transparent !important;
+}
+
+.ingame .personanameandstatus_playerName_1uxaf {
+	color: #91c257 !important;
+}
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+	border-top: none !important;
+}
+
+/*/ Stuff inside Friends List Container /*/
+
+
+/*/ Chat menu /*/
+.inviteAnotherFriendButton .SVGIcon_Button {
+	fill: rgb(52, 54, 51);
+}
+.inviteAnotherFriendButton {
+    background-color: rgb(66, 64, 62);
+}
+.titleBarContainer.ChatTabs {
+    background-color: transparent;
+}
+
+.chatDialogs {
+    background: rgb(56, 54, 52) !important;
+    margin-left: 7px !important;
+    margin-right: 7px !important;
+}
+
+.chatWindow {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    margin-top: 8px !important;
+	background: linear-gradient(to bottom, rgb(56, 54, 52) 0%, rgb(41, 40, 39) 5%, rgb(36, 34, 32) 50%, rgb(56, 54, 52) 100%) !important;
+}
+
+.chatWindow .chatEntry, .chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW, .chatentry_chatEntryControls_2O_X7, .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh {
+	background: rgb(56, 54, 52) !important;
+}
+
+.chattabs_ChatTab_1WfqA.no-drag.chattabs_Active_3sMSI {
+	background: linear-gradient(to bottom, rgb(107, 104, 102), rgb(56, 54, 52)) !important;
+}
+
+.titleBarContainer.ChatTabs {
+	margin-left: 7px !important;
+}
+
+.chatTabSelector {
+	background: linear-gradient(to bottom, rgb(107, 104, 102), rgb(56, 54, 52)) !important;
+}
+
+.HorizontalMiniSliderScroll {
+    overflow-x: visible !important;
+}
+
+.chatentry_chatEntryControls_2O_X7{
+	box-shadow: none !important;
+    border: 1px solid rgb(77, 75, 72);
+    border-radius: 3px;
+}
+
+div.displayColumn.fullWidth > div.chatEntry > form > button {
+	box-shadow: none !important;
+    border-left: 1px solid rgb(77, 75, 72) !important;
+    border-radius: 0px !important;
+	border: none;
+	max-height: 100% !important;
+	height: calc(100% - 2px) !important;
+}
+
+.chatentry_chatEntryActionsGroup_15mWd  {
+	box-shadow: none !important;
+    border: 1px solid rgb(77, 75, 72);
+    border-radius: 3px;
+	background-color: transparent !important;
+}
+
+button.chatentry_chatSubmitButton_3VRfL {
+	border: none !important;
+}
+
+button.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0 {
+    border-right: 1px solid rgb(77, 75, 72);
+}
+
+.chatHistoryScroll {
+    border: 1px solid rgb(77, 75, 72) !important;
+    border-radius: 2px !important;
+    border-top: none !important;
+}
+
+/*/ Chat menu /*/
+
+
+/*/ Settings Menu /*/
+
+
+
+/*/ Settings Menu /*/
+
+.pagedsettings_PagedSettingsDialog_PageListColumn_3fNNR {
+	background: linear-gradient(to bottom, rgb(37, 36, 35) 1%, rgb(54, 52, 51) 6%, rgb(25, 24, 22) 50%) !important;
+    padding-top: 0px !important;
+}
+
+.pagedsettings_PagedSettingsDialog_Title_2bZnn {
+	text-transform: initial !important;
+    color: grey !important;
+    top: -25px !important;
+    position: absolute !important;
+	left: 0px !important;
+}
+
+body.fullheight.ModalDialogBody {
+	background-image: none !important;
+	background: rgb(56, 54, 53) !important;
+}
+
+.pagedsettings_PagedSettingsDialog_2-kPn.FriendSettingsContainer.Panel.Focusable {
+	margin-left: 8px !important;
+	margin-right: 8px !important;
+    margin-bottom: 45px !important;
+    margin-top: 31px !important;
+}
+
+.pagedsettings_PagedSettingsDialog_PageList_1gkZX {
+	margin-top: 50px !important;
+}
+.DialogContent, .DialogContentTransition {
+	background: linear-gradient(to bottom, rgb(56, 54, 53), rgb(73, 71, 69)) !important;
+}
+
+button.DialogButton {
+	background: linear-gradient(to bottom, rgb(86, 84, 82), rgb(56, 54, 52));
+    border: 1px solid rgb(106, 104, 102);
+    border-radius: 4px;
+}
+
+button.DialogButton:hover {
+	background: linear-gradient(to bottom, rgb(106, 104, 102), rgb(76, 74, 72));
+    border: 1px solid rgb(126, 124, 122);
+}
+
+button.DialogButton.Primary {
+	background: linear-gradient(to bottom, rgb(86, 84, 82), rgb(56, 54, 52));
+}
+
+button.DialogButton.Primary:hover {
+	background: linear-gradient(to bottom, rgb(106, 104, 102), rgb(76, 74, 72));
+    border: 1px solid rgb(126, 124, 122);
+}
+
+.DialogTextInputBase, ._DialogInputContainer {
+	background: linear-gradient(to bottom, rgb(86, 84, 82), rgb(56, 54, 52));
+    border: 1px solid rgb(106, 104, 102);
+    border-radius: 4px;
+}
+
+.DialogTextInputBase, ._DialogInputContainer:hover {
+	background: linear-gradient(to bottom, rgb(106, 104, 102), rgb(76, 74, 72));
+    border: 1px solid rgb(126, 124, 122);
+}
+
+.DialogDropDown_Arrow {
+	top: -6px !important;
+    height: 90% !important;
+}
+
+.DialogDropDown_Arrow:before {
+    border-left: 1px solid rgb(117, 117, 116) !important;
+	margin-right: 5px !important;
+	font-size: 30px !important;
+}
+
+.DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+	fill: grey !important;
+}
