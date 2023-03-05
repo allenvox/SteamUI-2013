@@ -5,6 +5,7 @@ A complete bundle for your Steam to look like this:<br>
 ## Installation:
 1. [Download this repository](https://github.com/allenvox/SteamUI-2013/archive/refs/heads/main.zip)
 2. Unarchive it to your Steam folder (usually C:\Program Files (x86)\Steam), replace old files if asked
+- NOTE : If you want Russian language to work properly in Steam Library, delete existing `libraryroot.custom.css` and rename `RU_libraryroot.custom.css` to `libraryroot.custom.css`
 3. Install and run [Steam Friends Patcher (SFP_UI.exe)](https://github.com/PhantomGamers/SFP/releases)
 4. Specify your Steam folder (if needed) and click fancy 'Patch' button
 5. Restart Steam application if it was running
