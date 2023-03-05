@@ -1,6 +1,6 @@
 # SteamUI 2013
 A complete bundle for your Steam to look like this:<br>
-![image](https://i.ibb.co/XFGM7Xm/steam3.png)<br>
+![image](https://ltdfoto.ru/images/2023/03/05/steam3.png)<br>
 
 ## Installation:
 1. [Download this repository](https://github.com/allenvox/SteamUI-2013/archive/refs/heads/main.zip)
